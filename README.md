@@ -36,7 +36,14 @@ https://your-username.github.io/your-repo-name/
 
 ## Data notes
 
-_Replace this line. Say which rows you left out and why, and how each figure on the site is defined. "Five things that will bite you" in the description sheet lists the problems to cover._
+The page reads `data/site_summary.json`, which `scripts/make_site_summary.py` builds from the CSV. To rebuild it, run `python3 scripts/make_site_summary.py` from the repository root (needs pandas).
+
+- **Rows left out:** sales under $10,000 or over $5,000,000 (71 of 35,442 rows), because of the impossible prices described in the description sheet.
+- **Medians** are used for every figure, not averages.
+- **Price per square foot** only uses homes with at least 300 sq ft of living area (some rows are 0).
+- **Days on market** is `contract_date - list_date`, only where both dates exist. Blanks are skipped, never counted as zero.
+- **Campus** is the `university` column. "Near campus" means within 1 straight-line mile.
+- Still to cover: the repeated street addresses and the unreliable `home_type` column (neither is used so far).
 
 ## Tools we used
 

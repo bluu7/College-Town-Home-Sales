@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; --bar: #2b6cb0; --hi: #c05621; --muted: #6b7280; }
+@media (prefers-color-scheme: dark) { :root { --bar: #63a4e8; --hi: #f0a060; --muted: #9ca3af; } }
+body { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem; font-family: system-ui, sans-serif; line-height: 1.5; }
+h1 { font-size: 1.8rem; line-height: 1.2; }
+h2 { font-size: 1.25rem; margin-top: 0; }
+section { margin-top: 2.5rem; }
+.lede { font-size: 1.1rem; color: var(--muted); }
+.row { display: grid; grid-template-columns: 9.5rem 1fr; align-items: center; gap: .5rem; margin: .25rem 0; font-size: .9rem; }
+.row .track { display: flex; align-items: center; gap: .4rem; }
+.row .bar { background: var(--bar); height: 1.1rem; border-radius: 2px; min-width: 2px; }
+.row.hi .bar { background: var(--hi); }
+.row .val { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.row .sub { color: var(--muted); font-size: .8rem; }
+.notes ul { padding-left: 1.2rem; color: var(--muted); font-size: .9rem; }
+footer { margin-top: 3rem; font-size: .875rem; opacity: .75; }
+@media (max-width: 30rem) { .row { grid-template-columns: 1fr; gap: 0; margin: .6rem 0; } }
