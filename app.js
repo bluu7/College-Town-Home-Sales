@@ -57,7 +57,7 @@ function card(el, items) {
   }
 }
 
-fetch("data/site_summary.json").then((r) => r.json()).then((s) => {
+fetch("data/site_summary.json?v=3", { cache: "no-cache" }).then((r) => r.json()).then((s) => {
   const C = s.campuses;
   set("lede", `${num(s.rows_used)} completed home sales around ${C.length} university campuses, ${s.all_years[0].year} to early ${s.all_years[s.all_years.length - 1].year}. The typical home sold for ${money(s.median_price_all)} and went under contract ${num(s.median_dom_all)} days after listing.`);
 

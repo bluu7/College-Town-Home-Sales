@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>College-town home sales: insights</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <main>
@@ -14,8 +14,8 @@
 
     <section class="picker">
       <label for="focus">Focus on a campus:</label>
-      <select id="focus"></select>
-      <div id="card" class="card" aria-live="polite"></div>
+      <select id="focus"><option value="">All campuses</option></select>
+      <div id="card" class="card" aria-live="polite">Loading…</div>
       <p class="small">The campus picker changes the "distance" and "over time" charts below.</p>
     </section>
 
@@ -82,6 +82,6 @@
     <p>Data: College-town home sales dataset, version 1.0 (2026). University of Illinois-Deloitte Foundation Center for Business Emerging Technologies. Data collected March 2026.</p>
   </footer>
   <noscript><p>This page needs JavaScript to draw its charts.</p></noscript>
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
