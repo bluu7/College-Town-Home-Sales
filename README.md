@@ -42,6 +42,9 @@ The page reads `data/site_summary.json`, which `scripts/make_site_summary.py` bu
 - **Medians** are used for every figure, not averages.
 - **Price per square foot** only uses homes with at least 300 sq ft of living area (some rows are 0).
 - **Days on market** is `contract_date - list_date`, only where both dates exist. Blanks are skipped, never counted as zero.
+- **Property tax rate** is `tax_annual_amount / sale_price`, kept only between 0.1% and 5% (drops $0 bills and the $1 billion bill).
+- **Distance bands and decades built** with fewer than 30 homes are not shown.
+- **Year charts** use the year the sale closed; 2026 only runs through March and is marked partial.
 - **Campus** is the `university` column. "Near campus" means within 1 straight-line mile.
 - Still to cover: the repeated street addresses and the unreliable `home_type` column (neither is used so far).
 

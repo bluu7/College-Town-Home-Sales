@@ -8,6 +8,335 @@
  "min_sqft": 300,
  "median_price_all": 410000.0,
  "median_dom_all": 11.0,
+ "min_rate": 0.001,
+ "max_rate": 0.05,
+ "min_cell": 30,
+ "tax_rows_used": 33756,
+ "all_years": [
+  {
+   "year": 2023,
+   "sales": 9583,
+   "median_price": 399000.0,
+   "last_month": 12
+  },
+  {
+   "year": 2024,
+   "sales": 11632,
+   "median_price": 410000.0,
+   "last_month": 12
+  },
+  {
+   "year": 2025,
+   "sales": 12278,
+   "median_price": 424900.0,
+   "last_month": 12
+  },
+  {
+   "year": 2026,
+   "sales": 1872,
+   "median_price": 405000.0,
+   "last_month": 3
+  }
+ ],
+ "all_bands": [
+  {
+   "label": "Under 1 mi",
+   "n": 1844,
+   "median_ppsf": 279.1514437326159
+  },
+  {
+   "label": "1 to 2 mi",
+   "n": 5518,
+   "median_ppsf": 232.4621822141193
+  },
+  {
+   "label": "2 to 3 mi",
+   "n": 7492,
+   "median_ppsf": 200.50935877857646
+  },
+  {
+   "label": "3 to 5 mi",
+   "n": 10677,
+   "median_ppsf": 202.24019912881144
+  },
+  {
+   "label": "5 to 8 mi",
+   "n": 8199,
+   "median_ppsf": 217.15526601520088
+  },
+  {
+   "label": "8+ mi",
+   "n": 1138,
+   "median_ppsf": 218.04662153503023
+  }
+ ],
+ "no_list_new_build_share": 0.16070553650171485,
+ "listed_new_build_share": 0.06308123632385121,
+ "built": [
+  {
+   "label": "Before 1950",
+   "sales": 4756,
+   "median_price": 360000.0,
+   "median_ppsf": 250.52558582520265,
+   "median_dom": 8.0
+  },
+  {
+   "label": "1950s",
+   "sales": 3984,
+   "median_price": 330000.0,
+   "median_ppsf": 220.82790445168294,
+   "median_dom": 8.0
+  },
+  {
+   "label": "1960s",
+   "sales": 4355,
+   "median_price": 360000.0,
+   "median_ppsf": 198.86363636363637,
+   "median_dom": 8.0
+  },
+  {
+   "label": "1970s",
+   "sales": 3774,
+   "median_price": 375000.0,
+   "median_ppsf": 194.63903721484675,
+   "median_dom": 9.0
+  },
+  {
+   "label": "1980s",
+   "sales": 3044,
+   "median_price": 405250.0,
+   "median_ppsf": 207.8581768988106,
+   "median_dom": 9.0
+  },
+  {
+   "label": "1990s",
+   "sales": 4393,
+   "median_price": 463000.0,
+   "median_ppsf": 209.54035152836377,
+   "median_dom": 10.0
+  },
+  {
+   "label": "2000s",
+   "sales": 4454,
+   "median_price": 439950.0,
+   "median_ppsf": 201.36786013734036,
+   "median_dom": 12.0
+  },
+  {
+   "label": "2010s",
+   "sales": 2800,
+   "median_price": 510000.0,
+   "median_ppsf": 220.95238095238096,
+   "median_dom": 14.0
+  },
+  {
+   "label": "2020 to 2026",
+   "sales": 3810,
+   "median_price": 469900.0,
+   "median_ppsf": 227.94341808294885,
+   "median_dom": 50.0
+  }
+ ],
+ "cities": [
+  {
+   "city": "Ann Arbor",
+   "state": "MI",
+   "university": "University of Michigan",
+   "sales": 3007,
+   "median_price": 572000.0,
+   "median_ppsf": 259.2165898617512,
+   "median_dom": 7.0,
+   "no_list_share": 0.1676089125374127,
+   "median_tax_rate": 0.015063888888888889
+  },
+  {
+   "city": "Athens",
+   "state": "GA",
+   "university": "University of Georgia",
+   "sales": 2805,
+   "median_price": 370000.0,
+   "median_ppsf": 196.75277620929796,
+   "median_dom": 27.0,
+   "no_list_share": 0.1590017825311943,
+   "median_tax_rate": 0.009484124172648458
+  },
+  {
+   "city": "Carrboro",
+   "state": "NC",
+   "university": "The University of North Carolina at Chapel Hill",
+   "sales": 205,
+   "median_price": 605000.0,
+   "median_ppsf": 316.39712168709036,
+   "median_dom": 7.0,
+   "no_list_share": 0.2682926829268293,
+   "median_tax_rate": 0.0107008
+  },
+  {
+   "city": "Champaign",
+   "state": "IL",
+   "university": "University of Illinois Urbana-Champaign",
+   "sales": 2285,
+   "median_price": 240000.0,
+   "median_ppsf": 149.68487394957984,
+   "median_dom": 7.0,
+   "no_list_share": 0.21137855579868708,
+   "median_tax_rate": 0.019541871921182265
+  },
+  {
+   "city": "Chapel Hill",
+   "state": "NC",
+   "university": "The University of North Carolina at Chapel Hill",
+   "sales": 2705,
+   "median_price": 734000.0,
+   "median_ppsf": 276.7134882561907,
+   "median_dom": 10.0,
+   "no_list_share": 0.18040665434380776,
+   "median_tax_rate": 0.0075670229007633585
+  },
+  {
+   "city": "Charlottesville",
+   "state": "VA",
+   "university": "University of Virginia",
+   "sales": 2759,
+   "median_price": 613000.0,
+   "median_ppsf": 269.50718685831623,
+   "median_dom": 7.0,
+   "no_list_share": 0.25190286335628853,
+   "median_tax_rate": 0.008084478243352136
+  },
+  {
+   "city": "Davis",
+   "state": "CA",
+   "university": "University of California, Davis",
+   "sales": 941,
+   "median_price": 889000.0,
+   "median_ppsf": 492.71339347675223,
+   "median_dom": 11.0,
+   "no_list_share": 0.153028692879915,
+   "median_tax_rate": 0.012561290322580645
+  },
+  {
+   "city": "Gainesville",
+   "state": "FL",
+   "university": "University of Florida",
+   "sales": 5467,
+   "median_price": 350000.0,
+   "median_ppsf": 203.52564102564102,
+   "median_dom": 25.0,
+   "no_list_share": 0.18693982074263765,
+   "median_tax_rate": 0.01212859434237387
+  },
+  {
+   "city": "Iowa City",
+   "state": "IA",
+   "university": "The University of Iowa",
+   "sales": 1909,
+   "median_price": 342000.0,
+   "median_ppsf": 175.91463414634146,
+   "median_dom": 23.5,
+   "no_list_share": 0.09429020429544265,
+   "median_tax_rate": 0.015782978723404256
+  },
+  {
+   "city": "Lafayette",
+   "state": "IN",
+   "university": "Purdue University",
+   "sales": 3053,
+   "median_price": 260000.0,
+   "median_ppsf": 163.0546609411344,
+   "median_dom": 9.0,
+   "no_list_share": 0.049132001310186704,
+   "median_tax_rate": 0.006026159469618492
+  },
+  {
+   "city": "Madison",
+   "state": "WI",
+   "university": "University of Wisconsin-Madison",
+   "sales": 5061,
+   "median_price": 421000.0,
+   "median_ppsf": 248.0737426850988,
+   "median_dom": 7.0,
+   "no_list_share": 0.19344003161430548,
+   "median_tax_rate": 0.015005970149253731
+  },
+  {
+   "city": "Middleton",
+   "state": "WI",
+   "university": "University of Wisconsin-Madison",
+   "sales": 645,
+   "median_price": 611000.0,
+   "median_ppsf": 256.26092020966803,
+   "median_dom": 8.0,
+   "no_list_share": 0.13023255813953488,
+   "median_tax_rate": 0.013062137507742553
+  },
+  {
+   "city": "Newberry",
+   "state": "FL",
+   "university": "University of Florida",
+   "sales": 152,
+   "median_price": 439995.0,
+   "median_ppsf": 184.70445696026042,
+   "median_dom": 87.0,
+   "no_list_share": 0.10526315789473684,
+   "median_tax_rate": 0.014107103732445631
+  },
+  {
+   "city": "Pittsboro",
+   "state": "NC",
+   "university": "The University of North Carolina at Chapel Hill",
+   "sales": 92,
+   "median_price": 876985.5,
+   "median_ppsf": 301.8694452957401,
+   "median_dom": 38.0,
+   "no_list_share": 0.3804347826086957,
+   "median_tax_rate": 0.005735429446100773
+  },
+  {
+   "city": "Savoy",
+   "state": "IL",
+   "university": "University of Illinois Urbana-Champaign",
+   "sales": 247,
+   "median_price": 402700.0,
+   "median_ppsf": 186.73565380997178,
+   "median_dom": 10.5,
+   "no_list_share": 0.13360323886639677,
+   "median_tax_rate": 0.018328373015873017
+  },
+  {
+   "city": "State College",
+   "state": "PA",
+   "university": "The Pennsylvania State University",
+   "sales": 1348,
+   "median_price": 430000.0,
+   "median_ppsf": 208.0244221543829,
+   "median_dom": 8.0,
+   "no_list_share": 0.3167655786350148,
+   "median_tax_rate": 0.010624413870560158
+  },
+  {
+   "city": "Urbana",
+   "state": "IL",
+   "university": "University of Illinois Urbana-Champaign",
+   "sales": 1131,
+   "median_price": 229900.0,
+   "median_ppsf": 144.34885649958525,
+   "median_dom": 8.0,
+   "no_list_share": 0.22015915119363394,
+   "median_tax_rate": 0.02168732057416268
+  },
+  {
+   "city": "West Lafayette",
+   "state": "IN",
+   "university": "Purdue University",
+   "sales": 1559,
+   "median_price": 379900.0,
+   "median_ppsf": 178.2762691853601,
+   "median_dom": 11.0,
+   "no_list_share": 0.08531109685695959,
+   "median_tax_rate": 0.00610376613765946
+  }
+ ],
  "campuses": [
   {
    "university": "Purdue University",
@@ -20,7 +349,75 @@
    "far_median_ppsf": 167.81041276145316,
    "dom_sales": 3896,
    "dom_share_of_sales": 0.8447528187337381,
-   "median_dom": 10.0
+   "median_dom": 10.0,
+   "cities": [
+    "Lafayette",
+    "West Lafayette"
+   ],
+   "states": [
+    "IN"
+   ],
+   "median_tax_rate": 0.00604692403486924,
+   "tax_sales": 4210,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 115,
+     "median_ppsf": 191.3265306122449
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 413,
+     "median_ppsf": 154.41176470588235
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 1007,
+     "median_ppsf": 162.21374045801528
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 1676,
+     "median_ppsf": 171.15918224497761
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 1230,
+     "median_ppsf": 168.90836810553532
+    },
+    {
+     "label": "8+ mi",
+     "n": 170,
+     "median_ppsf": 175.96143983953982
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 1179,
+     "median_price": 277100.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 1520,
+     "median_price": 301000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 1635,
+     "median_price": 307000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 278,
+     "median_price": 302000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.06136166522116219
   },
   {
    "university": "The Pennsylvania State University",
@@ -33,7 +430,74 @@
    "far_median_ppsf": 201.10743489602805,
    "dom_sales": 908,
    "dom_share_of_sales": 0.6735905044510386,
-   "median_dom": 8.0
+   "median_dom": 8.0,
+   "cities": [
+    "State College"
+   ],
+   "states": [
+    "PA"
+   ],
+   "median_tax_rate": 0.010624413870560158,
+   "tax_sales": 1328,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 263,
+     "median_ppsf": 255.2454282964389
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 366,
+     "median_ppsf": 203.17719933184856
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 538,
+     "median_ppsf": 199.96448863636363
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 176,
+     "median_ppsf": 201.07437910756374
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 0,
+     "median_ppsf": null
+    },
+    {
+     "label": "8+ mi",
+     "n": 0,
+     "median_ppsf": null
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 391,
+     "median_price": 411200.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 432,
+     "median_price": 425000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 459,
+     "median_price": 439000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 66,
+     "median_price": 485000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.3167655786350148
   },
   {
    "university": "The University of Iowa",
@@ -46,7 +510,74 @@
    "far_median_ppsf": 172.88477176460327,
    "dom_sales": 1248,
    "dom_share_of_sales": 0.6537454164484023,
-   "median_dom": 23.5
+   "median_dom": 23.5,
+   "cities": [
+    "Iowa City"
+   ],
+   "states": [
+    "IA"
+   ],
+   "median_tax_rate": 0.015782978723404256,
+   "tax_sales": 1809,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 217,
+     "median_ppsf": 208.01232665639446
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 656,
+     "median_ppsf": 173.447626554563
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 632,
+     "median_ppsf": 162.8468181873988
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 373,
+     "median_ppsf": 186.28364389233954
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 21,
+     "median_ppsf": null
+    },
+    {
+     "label": "8+ mi",
+     "n": 8,
+     "median_ppsf": null
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 518,
+     "median_price": 320000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 590,
+     "median_price": 345000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 706,
+     "median_price": 355000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 94,
+     "median_price": 321695.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.09429020429544265
   },
   {
    "university": "The University of North Carolina at Chapel Hill",
@@ -59,7 +590,76 @@
    "far_median_ppsf": 277.29357798165137,
    "dom_sales": 2408,
    "dom_share_of_sales": 0.8021319120586275,
-   "median_dom": 10.0
+   "median_dom": 10.0,
+   "cities": [
+    "Carrboro",
+    "Chapel Hill",
+    "Pittsboro"
+   ],
+   "states": [
+    "NC"
+   ],
+   "median_tax_rate": 0.0077786482334869424,
+   "tax_sales": 2882,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 159,
+     "median_ppsf": 385.3887399463807
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 460,
+     "median_ppsf": 306.1420728484018
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 512,
+     "median_ppsf": 311.9549212670738
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 850,
+     "median_ppsf": 270.13239201129807
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 790,
+     "median_ppsf": 265.00984709139215
+    },
+    {
+     "label": "8+ mi",
+     "n": 220,
+     "median_ppsf": 241.77157535851532
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 825,
+     "median_price": 708000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 965,
+     "median_price": 745000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 1060,
+     "median_price": 710500.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 152,
+     "median_price": 682500.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.19253830779480346
   },
   {
    "university": "University of California, Davis",
@@ -72,7 +672,74 @@
    "far_median_ppsf": 489.9051641735015,
    "dom_sales": 792,
    "dom_share_of_sales": 0.8416578108395324,
-   "median_dom": 11.0
+   "median_dom": 11.0,
+   "cities": [
+    "Davis"
+   ],
+   "states": [
+    "CA"
+   ],
+   "median_tax_rate": 0.012561290322580645,
+   "tax_sales": 925,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 97,
+     "median_ppsf": 525.5613951266125
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 393,
+     "median_ppsf": 499.23195084485405
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 393,
+     "median_ppsf": 485.6850715746421
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 51,
+     "median_ppsf": 451.33991537376585
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 7,
+     "median_ppsf": null
+    },
+    {
+     "label": "8+ mi",
+     "n": 0,
+     "median_ppsf": null
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 255,
+     "median_price": 900000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 295,
+     "median_price": 900000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 347,
+     "median_price": 885000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 44,
+     "median_price": 798000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.153028692879915
   },
   {
    "university": "University of Florida",
@@ -85,7 +752,75 @@
    "far_median_ppsf": 202.46538395790992,
    "dom_sales": 4505,
    "dom_share_of_sales": 0.8017440825769709,
-   "median_dom": 25.0
+   "median_dom": 25.0,
+   "cities": [
+    "Gainesville",
+    "Newberry"
+   ],
+   "states": [
+    "FL"
+   ],
+   "median_tax_rate": 0.012176470588235294,
+   "tax_sales": 5409,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 167,
+     "median_ppsf": 238.88888888888889
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 493,
+     "median_ppsf": 207.10059171597632
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 998,
+     "median_ppsf": 186.78677879497553
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 1727,
+     "median_ppsf": 194.09937888198758
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 1936,
+     "median_ppsf": 214.9453975835757
+    },
+    {
+     "label": "8+ mi",
+     "n": 292,
+     "median_ppsf": 204.3254926794138
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 1485,
+     "median_price": 354000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 1862,
+     "median_price": 355000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 1950,
+     "median_price": 360000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 321,
+     "median_price": 340000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.1847303790710091
   },
   {
    "university": "University of Georgia",
@@ -98,7 +833,74 @@
    "far_median_ppsf": 194.39679817038308,
    "dom_sales": 2278,
    "dom_share_of_sales": 0.8121212121212121,
-   "median_dom": 27.0
+   "median_dom": 27.0,
+   "cities": [
+    "Athens"
+   ],
+   "states": [
+    "GA"
+   ],
+   "median_tax_rate": 0.009484124172648458,
+   "tax_sales": 2580,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 123,
+     "median_ppsf": 260.7843137254902
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 335,
+     "median_ppsf": 280.1816239316239
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 346,
+     "median_ppsf": 201.6939945333342
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 1020,
+     "median_ppsf": 189.60037715385164
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 469,
+     "median_ppsf": 185.46235769372015
+    },
+    {
+     "label": "8+ mi",
+     "n": 59,
+     "median_ppsf": 181.78181818181818
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 718,
+     "median_price": 370000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 990,
+     "median_price": 370950.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 948,
+     "median_price": 374950.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 148,
+     "median_price": 356250.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.1590017825311943
   },
   {
    "university": "University of Illinois Urbana-Champaign",
@@ -111,7 +913,76 @@
    "far_median_ppsf": 150.07216257167948,
    "dom_sales": 2868,
    "dom_share_of_sales": 0.782964782964783,
-   "median_dom": 7.0
+   "median_dom": 7.0,
+   "cities": [
+    "Champaign",
+    "Savoy",
+    "Urbana"
+   ],
+   "states": [
+    "IL"
+   ],
+   "median_tax_rate": 0.01996445497630332,
+   "tax_sales": 3471,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 166,
+     "median_ppsf": 156.39937858508603
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 834,
+     "median_ppsf": 137.67982134116494
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 1106,
+     "median_ppsf": 139.74919051018094
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 1348,
+     "median_ppsf": 159.48900727711265
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 188,
+     "median_ppsf": 200.23844075991548
+    },
+    {
+     "label": "8+ mi",
+     "n": 8,
+     "median_ppsf": null
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 1063,
+     "median_price": 225000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 1215,
+     "median_price": 245000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 1179,
+     "median_price": 263500.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 205,
+     "median_price": 235000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.20884520884520885
   },
   {
    "university": "University of Michigan",
@@ -124,7 +995,74 @@
    "far_median_ppsf": 251.34702466299905,
    "dom_sales": 2448,
    "dom_share_of_sales": 0.814100432324576,
-   "median_dom": 7.0
+   "median_dom": 7.0,
+   "cities": [
+    "Ann Arbor"
+   ],
+   "states": [
+    "MI"
+   ],
+   "median_tax_rate": 0.015063888888888889,
+   "tax_sales": 2945,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 252,
+     "median_ppsf": 419.5500332667997
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 782,
+     "median_ppsf": 321.1697722567288
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 801,
+     "median_ppsf": 249.10233393177737
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 773,
+     "median_ppsf": 224.63768115942028
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 379,
+     "median_ppsf": 213.77012770682953
+    },
+    {
+     "label": "8+ mi",
+     "n": 11,
+     "median_ppsf": null
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 915,
+     "median_price": 560000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 907,
+     "median_price": 571000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 1047,
+     "median_price": 585000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 138,
+     "median_price": 564000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.1676089125374127
   },
   {
    "university": "University of Virginia",
@@ -137,7 +1075,74 @@
    "far_median_ppsf": 266.8085043074133,
    "dom_sales": 2049,
    "dom_share_of_sales": 0.7426603841971728,
-   "median_dom": 7.0
+   "median_dom": 7.0,
+   "cities": [
+    "Charlottesville"
+   ],
+   "states": [
+    "VA"
+   ],
+   "median_tax_rate": 0.008084478243352136,
+   "tax_sales": 2692,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 179,
+     "median_ppsf": 336.53846153846155
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 489,
+     "median_ppsf": 311.39140717382736
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 614,
+     "median_ppsf": 279.4689317307706
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 572,
+     "median_ppsf": 248.0658656984334
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 623,
+     "median_ppsf": 248.05867126833476
+    },
+    {
+     "label": "8+ mi",
+     "n": 280,
+     "median_ppsf": 262.81012422254986
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 722,
+     "median_price": 572650.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 963,
+     "median_price": 614923.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 951,
+     "median_price": 650000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 122,
+     "median_price": 631000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.25190286335628853
   },
   {
    "university": "University of Wisconsin-Madison",
@@ -150,7 +1155,75 @@
    "far_median_ppsf": 248.04177545691905,
    "dom_sales": 4628,
    "dom_share_of_sales": 0.8110760602874167,
-   "median_dom": 7.0
+   "median_dom": 7.0,
+   "cities": [
+    "Madison",
+    "Middleton"
+   ],
+   "states": [
+    "WI"
+   ],
+   "median_tax_rate": 0.01483409090909091,
+   "tax_sales": 5505,
+   "bands": [
+    {
+     "label": "Under 1 mi",
+     "n": 106,
+     "median_ppsf": 362.0453643757961
+    },
+    {
+     "label": "1 to 2 mi",
+     "n": 297,
+     "median_ppsf": 364.88027366020526
+    },
+    {
+     "label": "2 to 3 mi",
+     "n": 545,
+     "median_ppsf": 319.4006309148265
+    },
+    {
+     "label": "3 to 5 mi",
+     "n": 2111,
+     "median_ppsf": 254.6983184965381
+    },
+    {
+     "label": "5 to 8 mi",
+     "n": 2556,
+     "median_ppsf": 230.9900337698707
+    },
+    {
+     "label": "8+ mi",
+     "n": 90,
+     "median_ppsf": 236.78441958382393
+    }
+   ],
+   "years": [
+    {
+     "year": 2023,
+     "sales": 1512,
+     "median_price": 403250.0,
+     "last_month": 12
+    },
+    {
+     "year": 2024,
+     "sales": 1893,
+     "median_price": 430000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2025,
+     "sales": 1996,
+     "median_price": 450000.0,
+     "last_month": 12
+    },
+    {
+     "year": 2026,
+     "sales": 304,
+     "median_price": 455000.0,
+     "last_month": 3
+    }
+   ],
+   "no_list_share": 0.18629512793550648
   }
  ],
  "months": [
