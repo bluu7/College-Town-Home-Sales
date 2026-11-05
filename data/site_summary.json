@@ -1,0 +1,230 @@
+{
+ "source": "data/college_town_home_sales.csv",
+ "rows_in_file": 35442,
+ "rows_used": 35371,
+ "rows_dropped_by_price_rule": 71,
+ "min_price": 10000,
+ "max_price": 5000000,
+ "min_sqft": 300,
+ "median_price_all": 410000.0,
+ "median_dom_all": 11.0,
+ "campuses": [
+  {
+   "university": "Purdue University",
+   "sales": 4612,
+   "median_price": 299900.0,
+   "median_ppsf": 168.38995568685377,
+   "near_sales": 115,
+   "near_median_ppsf": 191.3265306122449,
+   "far_sales": 4496,
+   "far_median_ppsf": 167.81041276145316,
+   "dom_sales": 3896,
+   "dom_share_of_sales": 0.8447528187337381,
+   "median_dom": 10.0
+  },
+  {
+   "university": "The Pennsylvania State University",
+   "sales": 1348,
+   "median_price": 430000.0,
+   "median_ppsf": 208.0244221543829,
+   "near_sales": 263,
+   "near_median_ppsf": 255.2454282964389,
+   "far_sales": 1080,
+   "far_median_ppsf": 201.10743489602805,
+   "dom_sales": 908,
+   "dom_share_of_sales": 0.6735905044510386,
+   "median_dom": 8.0
+  },
+  {
+   "university": "The University of Iowa",
+   "sales": 1909,
+   "median_price": 342000.0,
+   "median_ppsf": 175.91463414634146,
+   "near_sales": 217,
+   "near_median_ppsf": 208.01232665639446,
+   "far_sales": 1690,
+   "far_median_ppsf": 172.88477176460327,
+   "dom_sales": 1248,
+   "dom_share_of_sales": 0.6537454164484023,
+   "median_dom": 23.5
+  },
+  {
+   "university": "The University of North Carolina at Chapel Hill",
+   "sales": 3002,
+   "median_price": 725000.0,
+   "median_ppsf": 280.21442495126706,
+   "near_sales": 159,
+   "near_median_ppsf": 385.3887399463807,
+   "far_sales": 2832,
+   "far_median_ppsf": 277.29357798165137,
+   "dom_sales": 2408,
+   "dom_share_of_sales": 0.8021319120586275,
+   "median_dom": 10.0
+  },
+  {
+   "university": "University of California, Davis",
+   "sales": 941,
+   "median_price": 889000.0,
+   "median_ppsf": 492.71339347675223,
+   "near_sales": 97,
+   "near_median_ppsf": 525.5613951266125,
+   "far_sales": 844,
+   "far_median_ppsf": 489.9051641735015,
+   "dom_sales": 792,
+   "dom_share_of_sales": 0.8416578108395324,
+   "median_dom": 11.0
+  },
+  {
+   "university": "University of Florida",
+   "sales": 5619,
+   "median_price": 355000.0,
+   "median_ppsf": 203.31651045421773,
+   "near_sales": 167,
+   "near_median_ppsf": 238.88888888888889,
+   "far_sales": 5446,
+   "far_median_ppsf": 202.46538395790992,
+   "dom_sales": 4505,
+   "dom_share_of_sales": 0.8017440825769709,
+   "median_dom": 25.0
+  },
+  {
+   "university": "University of Georgia",
+   "sales": 2805,
+   "median_price": 370000.0,
+   "median_ppsf": 196.75277620929796,
+   "near_sales": 123,
+   "near_median_ppsf": 260.7843137254902,
+   "far_sales": 2229,
+   "far_median_ppsf": 194.39679817038308,
+   "dom_sales": 2278,
+   "dom_share_of_sales": 0.8121212121212121,
+   "median_dom": 27.0
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "sales": 3663,
+   "median_price": 245000.0,
+   "median_ppsf": 150.30058282217115,
+   "near_sales": 166,
+   "near_median_ppsf": 156.39937858508603,
+   "far_sales": 3484,
+   "far_median_ppsf": 150.07216257167948,
+   "dom_sales": 2868,
+   "dom_share_of_sales": 0.782964782964783,
+   "median_dom": 7.0
+  },
+  {
+   "university": "University of Michigan",
+   "sales": 3007,
+   "median_price": 572000.0,
+   "median_ppsf": 259.2165898617512,
+   "near_sales": 252,
+   "near_median_ppsf": 419.5500332667997,
+   "far_sales": 2746,
+   "far_median_ppsf": 251.34702466299905,
+   "dom_sales": 2448,
+   "dom_share_of_sales": 0.814100432324576,
+   "median_dom": 7.0
+  },
+  {
+   "university": "University of Virginia",
+   "sales": 2759,
+   "median_price": 613000.0,
+   "median_ppsf": 269.50718685831623,
+   "near_sales": 179,
+   "near_median_ppsf": 336.53846153846155,
+   "far_sales": 2578,
+   "far_median_ppsf": 266.8085043074133,
+   "dom_sales": 2049,
+   "dom_share_of_sales": 0.7426603841971728,
+   "median_dom": 7.0
+  },
+  {
+   "university": "University of Wisconsin-Madison",
+   "sales": 5706,
+   "median_price": 434010.0,
+   "median_ppsf": 249.16013437849944,
+   "near_sales": 106,
+   "near_median_ppsf": 362.0453643757961,
+   "far_sales": 5599,
+   "far_median_ppsf": 248.04177545691905,
+   "dom_sales": 4628,
+   "dom_share_of_sales": 0.8110760602874167,
+   "median_dom": 7.0
+  }
+ ],
+ "months": [
+  {
+   "month": 1,
+   "sales": 1802,
+   "median_dom": 32.0,
+   "dom_sales": 1342
+  },
+  {
+   "month": 2,
+   "sales": 1974,
+   "median_dom": 20.0,
+   "dom_sales": 1555
+  },
+  {
+   "month": 3,
+   "sales": 2597,
+   "median_dom": 11.0,
+   "dom_sales": 2094
+  },
+  {
+   "month": 4,
+   "sales": 3194,
+   "median_dom": 7.0,
+   "dom_sales": 2511
+  },
+  {
+   "month": 5,
+   "sales": 4035,
+   "median_dom": 7.0,
+   "dom_sales": 3211
+  },
+  {
+   "month": 6,
+   "sales": 4157,
+   "median_dom": 7.0,
+   "dom_sales": 3359
+  },
+  {
+   "month": 7,
+   "sales": 3662,
+   "median_dom": 8.0,
+   "dom_sales": 2956
+  },
+  {
+   "month": 8,
+   "sales": 3381,
+   "median_dom": 10.0,
+   "dom_sales": 2668
+  },
+  {
+   "month": 9,
+   "sales": 2630,
+   "median_dom": 14.0,
+   "dom_sales": 2045
+  },
+  {
+   "month": 10,
+   "sales": 2900,
+   "median_dom": 16.0,
+   "dom_sales": 2252
+  },
+  {
+   "month": 11,
+   "sales": 2387,
+   "median_dom": 16.0,
+   "dom_sales": 1912
+  },
+  {
+   "month": 12,
+   "sales": 2646,
+   "median_dom": 23.0,
+   "dom_sales": 2123
+  }
+ ]
+}
