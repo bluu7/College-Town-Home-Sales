@@ -57,7 +57,7 @@ function card(el, items) {
   }
 }
 
-fetch("data/site_summary.json?v=3", { cache: "no-cache" }).then((r) => r.json()).then((s) => {
+fetch("data/site_summary.json?v=4", { cache: "no-cache" }).then((r) => r.json()).then((s) => {
   const C = s.campuses;
   set("lede", `${num(s.rows_used)} completed home sales around ${C.length} university campuses, ${s.all_years[0].year} to early ${s.all_years[s.all_years.length - 1].year}. The typical home sold for ${money(s.median_price_all)} and went under contract ${num(s.median_dom_all)} days after listing.`);
 
@@ -107,6 +107,13 @@ fetch("data/site_summary.json?v=3", { cache: "no-cache" }).then((r) => r.json())
     set("h-dist", `Price per square foot by distance from campus: ${name}`);
   }
   sel.addEventListener("change", focus);
+
+  // ---- Median price by city
+  const byCity = [...s.cities].sort((a, b) => b.median_price - a.median_price);
+  const hiC = byCity[0], loC = byCity[byCity.length - 1];
+  set("h-city", `Median sale price by city: ${money(loC.median_price)} in ${loC.city} to ${money(hiC.median_price)} in ${hiC.city}`);
+  set("t-city", `All ${byCity.length} cities in the data, by median sale price. Sales under ${money(s.min_price)} or over ${money(s.max_price)} are left out.`);
+  bars($("c-city"), byCity.map((c, i) => ({ label: `${c.city}, ${c.state}`, value: c.median_price, hi: i === 0 || i === byCity.length - 1, sub: `n=${num(c.sales)}` })), money);
 
   // ---- 1. Price by campus
   const byPrice = [...C].sort((a, b) => b.median_price - a.median_price);
